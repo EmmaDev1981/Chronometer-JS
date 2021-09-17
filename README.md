@@ -1,4 +1,6 @@
-# Cronómetro - JavaScript
+# Chronometer JS
+
+HTML, CSS, JavaScript project.
 
 Test Link : https://emmadev1981.github.io/Chronometer-JS/
 
