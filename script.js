@@ -7,12 +7,10 @@ window.onload = function () {
   document.cron.continua.onclick = continuar;
   document.cron.reinicia.onclick = reiniciar;
 };
-
 //variables de inicio:
 var marcha = 0; //control del temporizador
 var cro = 0; //estado inicial del cronómetro.
 //cronometro en marcha. Empezar en 0:
-
 function empezar() {
   if (marcha == 0) {
     //solo si el cronómetro esta parado
@@ -21,7 +19,6 @@ function empezar() {
     marcha = 1; //indicamos que se ha puesto en marcha.
   }
 }
-
 function tiempo() {
   //función del temporizador
   actual = new Date(); //fecha en el instante
